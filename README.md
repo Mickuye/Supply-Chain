@@ -19,13 +19,15 @@ Each Challenges are addressed with:
 4.	Fundamental observations
 
   **Challenge 1: Daily Order Volume Trends**
+  
 **Business Question:**
 Calculate the daily totals of orders and pieces for each location, and show the 7-day moving average.
+
 **Reason for its significance:**
 Identifying volume and tracking daily orders helps pinpoint short-term demand trends. The 7-day moving average levels out daily variations, making it easier to spot consistent growth or declines without being distracted by outliers.
 
 **SQL SOLUTION:**
-
+sql_solutions/challenge_1_daily_order_trends.sql
 
 **Fundamental observations:**
 1.	This query calculates total orders, total pieces, and revenue for each location per day.
