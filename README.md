@@ -25,33 +25,7 @@ Calculate the daily totals of orders and pieces for each location, and show the 
 Identifying volume and tracking daily orders helps pinpoint short-term demand trends. The 7-day moving average levels out daily variations, making it easier to spot consistent growth or declines without being distracted by outliers.
 
 **SQL SOLUTION:**
-create table Supply_chain2
-like supply_chain;
 
-WITH TotalSum AS (	
-    SELECT workDate, customer, location,
-           SUM(ordercount) AS totalorder,
-           SUM(Numberofpieces) AS totalpieces,
-           SUM(totalrevenue) AS revenue
-    FROM supply_chain2
-    GROUP BY customer, location, workdate
-), 
-Row_Num AS (
-    SELECT workdate, customer, location, totalorder, totalpieces, revenue,
-           ROW_NUMBER() OVER(PARTITION BY customer, location ORDER BY workdate) AS Row_No
-    FROM TotalSum
-), 
-MovingAvg AS (
-    SELECT *,
-           CASE
-               WHEN Row_No > 6 
-               THEN AVG(revenue) OVER (PARTITION BY customer, location ROWS BETWEEN 6 PRECEDING AND CURRENT ROW) 
-               ELSE NULL
-           END AS `7-movgAvg`
-    FROM Row_Num
-)
-SELECT *
-FROM MovingAvg;
 
 **Fundamental observations:**
 1.	This query calculates total orders, total pieces, and revenue for each location per day.
