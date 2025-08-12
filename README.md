@@ -27,7 +27,7 @@ Calculate the daily totals of orders and pieces for each location, and show the 
 Identifying volume and tracking daily orders helps pinpoint short-term demand trends. The 7-day moving average levels out daily variations, making it easier to spot consistent growth or declines without being distracted by outliers.
 
 **SQL SOLUTION:**
-sql_solutions/challenge_1_daily_order_trends.sql
+[sql_solutions/challenge_1_daily_order_trends.sql](https://github.com/Mickuye/Supply-Chain/blob/c7e774c6806541019609b0f063cbd5663e416785/sql_solutions/challenge_1_daily_order_trends.sql)
 
 **Fundamental observations:**
 1.	This query calculates total orders, total pieces, and revenue for each location per day.
