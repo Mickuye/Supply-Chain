@@ -18,7 +18,7 @@ Each Challenges are addressed with:
 3.	SQL Solution
 4.	Fundamental observations
 
-  **Challenge 1: Daily Order Volume Trends**
+  **CHALLENGE 1: Daily Order Volume Trends**
   
 **Business Question:**
 Calculate the daily totals of orders and pieces for each location, and show the 7-day moving average.
@@ -34,7 +34,7 @@ Identifying volume and tracking daily orders helps pinpoint short-term demand tr
 2.	Frequently high-moving-average locations can be prioritized for more product allocation and marketing efforts.
 
 
-   **Challenge 2: Top Revenue Locations**
+   **CHALLENGE 2: Top Revenue Locations**
    
 **Business Question:**
 Pinpoint the top 5 locations by total revenue over the entire period
@@ -43,7 +43,7 @@ Pinpoint the top 5 locations by total revenue over the entire period
 Identifying the location generating the highest revenue helps the management to focus resources and operational improvements on these areas, and also serves as a benchmark for underperforming locations
 
 **SQL Solution:**
-sql_solutions/Challenge_2_Top_Revenue_Locations
+[sql_solutions/Challenge_2_Top_Revenue_Locations](https://github.com/Mickuye/Supply-Chain/blob/8c8c3b6909be029d077a1efa1e57981e7e7f2fde/sql_solutions/Challenge_2_Top_Revenue_Locations)
 
 **Fundamental Observations:**
 1.	The top 5 revenue locations are: Chicago, the highest with 34% and revenue of 18,239,732, Los Angeles (10,713,091, 20%), Atlanta (9,919,150, 18%), Dallas (7,660,952, 14%), and lastly Sacramento (7,228,504, 13%)
