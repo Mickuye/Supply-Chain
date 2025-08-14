@@ -1,0 +1,7 @@
+select 
+	location, 
+	round(sum(TotalRevenue),2) as revenue
+from supply_chain
+group by location
+order by revenue desc
+Limit 5;
