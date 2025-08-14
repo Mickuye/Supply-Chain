@@ -32,3 +32,20 @@ Identifying volume and tracking daily orders helps pinpoint short-term demand tr
 **Fundamental observations:**
 1.	This query calculates total orders, total pieces, and revenue for each location per day.
 2.	Frequently high-moving-average locations can be prioritized for more product allocation and marketing efforts.
+
+
+   **Challenge 2: Top Revenue Locations**
+   
+**Business Question:**
+Pinpoint the top 5 locations by total revenue over the entire period
+
+**Reason for its significance:**
+Identifying the location generating the highest revenue helps the management to focus resources and operational improvements on these areas, and also serves as a benchmark for underperforming locations
+
+**SQL Solution:**
+
+
+**Fundamental Observations:**
+1.	The top 5 revenue locations are: Chicago, the highest with 34% and revenue of 18,239,732, Los Angeles (10,713,091, 20%), Atlanta (9,919,150, 18%), Dallas (7,660,952, 14%), and lastly Sacramento (7,228,504, 13%)
+2.	Overall, Chicago’s Strong performance can serve as a benchmark for Miami (3,765,730, 3%), which is the least performing location in the company overall. The same procedures implemented in Chicago could also be applied in Miami.
+
