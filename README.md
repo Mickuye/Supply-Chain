@@ -43,7 +43,7 @@ Pinpoint the top 5 locations by total revenue over the entire period
 Identifying the location generating the highest revenue helps the management to focus resources and operational improvements on these areas, and also serves as a benchmark for underperforming locations
 
 **SQL Solution:**
-[sql_solutions/Challenge_2_Top_Revenue_Locations](https://github.com/Mickuye/Supply-Chain/blob/8c8c3b6909be029d077a1efa1e57981e7e7f2fde/sql_solutions/Challenge_2_Top_Revenue_Locations)
+[sql_solutions/Challenge_2_Top_Revenue_Locations.sql](https://github.com/Mickuye/Supply-Chain/blob/8c8c3b6909be029d077a1efa1e57981e7e7f2fde/sql_solutions/Challenge_2_Top_Revenue_Locations)
 
 **Fundamental Observations:**
 1.	The top 5 revenue locations are: Chicago, the highest with 34% and revenue of 18,239,732, Los Angeles (10,713,091, 20%), Atlanta (9,919,150, 18%), Dallas (7,660,952, 14%), and lastly Sacramento (7,228,504, 13%)
@@ -59,7 +59,7 @@ Evaluate the week-over-week percentage change in revenue by location using the L
 Growth trends are identified by tracking week-over-week revenue changes, sudden drops, or seasonal fluctuations. This aids the management in making decisions concerning performance changes, optimizing marketing campaigns, and improving resource allocation.
  
 **SQL Solution:**
-[sql_solutions/Challenge_3_Week-over-Week Revenue Growth](https://github.com/Mickuye/Supply-Chain/blob/9b805276b43476e882de7f6b89210dcf8acc81b0/sql_solutions/Challenge_3_Week-over-Week%20Revenue%20Growth)
+[sql_solutions/Challenge_3_Week-over-Week Revenue Growth.sql](https://github.com/Mickuye/Supply-Chain/blob/9b805276b43476e882de7f6b89210dcf8acc81b0/sql_solutions/Challenge_3_Week-over-Week%20Revenue%20Growth)
 
 **Fundamental Observations:**
 1.	The highest week-over-week revenue was 3330%, in week 1, 2021, driven by high demand surges in Atlanta.
@@ -76,7 +76,7 @@ Flag days where a location experiences spikes in the number of pieces of over 50
 Distinguishing demand surges allows the business to brace for unexpected spikes in sales in order to prevent stockouts and optimize inventory allocation. This also spots out high-demand days.
 
 **SQL Solution:**
-[sql_solutions/Challenge_4_Demand Surge Detection](https://github.com/Mickuye/Supply-Chain/blob/d20d2c393a71471b2ecc79c3aaa0a998c25de3d2/sql_solutions/Challenge_4_Demand%20Surge%20Detection)
+[sql_solutions/Challenge_4_Demand Surge Detection.sql](https://github.com/Mickuye/Supply-Chain/blob/d20d2c393a71471b2ecc79c3aaa0a998c25de3d2/sql_solutions/Challenge_4_Demand%20Surge%20Detection)
 
 **Fundamental Observations:**
 A brief overview of the data shows Atlanta’s customer, Amazon, experienced significant spikes on January 13 and 14, 2020, with pieces sold exceeding 338% of the 7-day moving average (225.7 pieces), using the spike flag to indicate demand levels that are above normal or unusual market activity.
