@@ -43,7 +43,7 @@ Pinpoint the top 5 locations by total revenue over the entire period
 Identifying the location generating the highest revenue helps the management to focus resources and operational improvements on these areas, and also serves as a benchmark for underperforming locations
 
 **SQL Solution:**
-https://github.com/Mickuye/Supply-Chain/blob/6ec6c4bbf921d43efecb69c13e69a3eeb171a448/sql_solutions/Challenge_2_Top_Revenue_Locations
+sql_solutions/Challenge_2_Top_Revenue_Locations
 
 **Fundamental Observations:**
 1.	The top 5 revenue locations are: Chicago, the highest with 34% and revenue of 18,239,732, Los Angeles (10,713,091, 20%), Atlanta (9,919,150, 18%), Dallas (7,660,952, 14%), and lastly Sacramento (7,228,504, 13%)
