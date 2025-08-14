@@ -48,4 +48,19 @@ Identifying the location generating the highest revenue helps the management to 
 **Fundamental Observations:**
 1.	The top 5 revenue locations are: Chicago, the highest with 34% and revenue of 18,239,732, Los Angeles (10,713,091, 20%), Atlanta (9,919,150, 18%), Dallas (7,660,952, 14%), and lastly Sacramento (7,228,504, 13%)
 2.	Overall, Chicago’s Strong performance can serve as a benchmark for Miami (3,765,730, 3%), which is the least performing location in the company overall. The same procedures implemented in Chicago could also be applied in Miami.
+   
 
+  **CHALLENGE 3: Week-over-Week Revenue Growth**
+
+**Business Question:**
+Evaluate the week-over-week percentage change in revenue by location using the LAG() function.
+
+**Reason for its significance:**
+Growth trends are identified by tracking week-over-week revenue changes, sudden drops, or seasonal fluctuations. This aids the management in making decisions concerning performance changes, optimizing marketing campaigns, and improving resource allocation.
+ 
+**SQL Solution:**
+
+**Fundamental Observations:**
+1.	The highest week-over-week revenue was 3330%, in week 1, 2021, driven by high demand surges in Atlanta.
+2.	Other notable spikes include 2917% in Birmingham (week 40, 2020), 2400% in Los Angeles (week 47, 2020), and 2261% in Los Angeles (week 8, 2020).
+3.	The analysis shows that while some locations maintained consistent growth, others had large swings in revenue, pointing to instability that may require targeted interventions. 
