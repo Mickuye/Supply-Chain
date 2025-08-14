@@ -76,6 +76,7 @@ Flag days where a location experiences spikes in the number of pieces of over 50
 Distinguishing demand surges allows the business to brace for unexpected spikes in sales in order to prevent stockouts and optimize inventory allocation. This also spots out high-demand days.
 
 **SQL Solution:**
+(https://github.com/Mickuye/Supply-Chain/blob/d20d2c393a71471b2ecc79c3aaa0a998c25de3d2/sql_solutions/Challenge_4_Demand%20Surge%20Detection)
 
 **Fundamental Observations:**
 A brief overview of the data shows Atlanta’s customer, Amazon, experienced significant spikes on January 13 and 14, 2020, with pieces sold exceeding 338% of the 7-day moving average (225.7 pieces), using the spike flag to indicate demand levels that are above normal or unusual market activity.
