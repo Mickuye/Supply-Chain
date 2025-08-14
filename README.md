@@ -81,3 +81,25 @@ Distinguishing demand surges allows the business to brace for unexpected spikes 
 **Fundamental Observations:**
 A brief overview of the data shows Atlanta’s customer, Amazon, experienced significant spikes on January 13 and 14, 2020, with pieces sold exceeding 338% of the 7-day moving average (225.7 pieces), using the spike flag to indicate demand levels that are above normal or unusual market activity.
 
+
+  **CHALLENGE 5: Weekly Revenue Volatility Score**
+  
+**Business Question:**
+compute the revenue standard deviation per location & rank them by volatility
+
+**Reason for its significance:**
+Revenue volatility indicates how much sales fluctuate over time. Locations with high volatility may suggest unstable demand patterns, necessitating improved forecasting, more flexible inventory management, or adaptive marketing strategies.
+NB: You are being asked to measure how much each location's revenue fluctuates over time, not just how much they earn, but how unstable their revenue is.
+Calculating revenue volatility helps identify which locations have unstable or inconsistent revenue patterns, allowing for better risk management and forecasting decisions. 
+
+**SQL Solution:**
+
+**Fundamental Observations:**
+Across all organizations’ locations, the top 5 volatile locations are:
+1.	Chicago (4,966) – highest fluctuation and requires close monitoring
+2.	Los Angles (4,871)
+3.	Atlanta (4,206)
+4.	Houston (3,947)
+5.	San Francisco (3,782)
+San Diego (1,617) and New York (1,023) have the least volatility and more stable revenue.
+Additionally, Higher volatility can be an opportunity linked to promotional events, but also a risk if caused by inconsistent demand.
