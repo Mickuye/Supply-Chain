@@ -59,7 +59,7 @@ Evaluate the week-over-week percentage change in revenue by location using the L
 Growth trends are identified by tracking week-over-week revenue changes, sudden drops, or seasonal fluctuations. This aids the management in making decisions concerning performance changes, optimizing marketing campaigns, and improving resource allocation.
  
 **SQL Solution:**
-sql_solutions/Challenge_3_Week-over-Week Revenue Growth
+[sql_solutions/Challenge_3_Week-over-Week Revenue Growth](https://github.com/Mickuye/Supply-Chain/blob/9b805276b43476e882de7f6b89210dcf8acc81b0/sql_solutions/Challenge_3_Week-over-Week%20Revenue%20Growth)
 
 **Fundamental Observations:**
 1.	The highest week-over-week revenue was 3330%, in week 1, 2021, driven by high demand surges in Atlanta.
