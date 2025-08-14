@@ -93,7 +93,7 @@ NB: You are being asked to measure how much each location's revenue fluctuates o
 Calculating revenue volatility helps identify which locations have unstable or inconsistent revenue patterns, allowing for better risk management and forecasting decisions. 
 
 **SQL Solution:**
-[sql_solutions/Challenge_5_Weekly Revenue Volatility Score.sql]
+[sql_solutions/Challenge_5_Weekly Revenue Volatility Score.sql](https://github.com/Mickuye/Supply-Chain/blob/670c73e5a093a2102d55f1672944cfc8fc67429e/sql_solutions/Challenge_5_Weekly%20Revenue%20Volatility%20Score.sql)
 
 **Fundamental Observations:**
 Across all organizations’ locations, the top 5 volatile locations are:
