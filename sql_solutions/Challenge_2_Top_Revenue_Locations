@@ -1,7 +1,8 @@
-select 
-	location, 
-	round(sum(TotalRevenue),2) as revenue
-from supply_chain
-group by location
-order by revenue desc
-Limit 5;
+SELECT 
+    location, 
+    ROUND(SUM(TotalRevenue), 2) AS revenue
+FROM supply_chain
+GROUP BY location
+ORDER BY revenue DESC
+LIMIT 5;
+
