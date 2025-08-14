@@ -64,4 +64,19 @@ Growth trends are identified by tracking week-over-week revenue changes, sudden 
 **Fundamental Observations:**
 1.	The highest week-over-week revenue was 3330%, in week 1, 2021, driven by high demand surges in Atlanta.
 2.	Other notable spikes include 2917% in Birmingham (week 40, 2020), 2400% in Los Angeles (week 47, 2020), and 2261% in Los Angeles (week 8, 2020).
-3.	The analysis shows that while some locations maintained consistent growth, others had large swings in revenue, pointing to instability that may require targeted interventions. 
+3.	The analysis shows that while some locations maintained consistent growth, others had large swings in revenue, pointing to instability that may require targeted interventions.
+   
+
+    **CHALLENGE 4: Demand Surge Detection**
+  	
+**Business Question:**
+Flag days where a location experiences spikes in the number of pieces of over 50% above its 7-day moving average.
+
+**Reason for its significance:**
+Distinguishing demand surges allows the business to brace for unexpected spikes in sales in order to prevent stockouts and optimize inventory allocation. This also spots out high-demand days.
+
+**SQL Solution:**
+
+**Fundamental Observations:**
+A brief overview of the data shows Atlanta’s customer, Amazon, experienced significant spikes on January 13 and 14, 2020, with pieces sold exceeding 338% of the 7-day moving average (225.7 pieces), using the spike flag to indicate demand levels that are above normal or unusual market activity.
+
