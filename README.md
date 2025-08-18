@@ -96,11 +96,18 @@ Calculating revenue volatility helps identify which locations have unstable or i
 [sql_solutions/Challenge_5_Weekly Revenue Volatility Score.sql](https://github.com/Mickuye/Supply-Chain/blob/670c73e5a093a2102d55f1672944cfc8fc67429e/sql_solutions/Challenge_5_Weekly%20Revenue%20Volatility%20Score.sql)
 
 **Fundamental Observations:**
-Across all organizations’ locations, the top 5 volatile locations are:
-1.	Chicago (4,966) – highest fluctuation and requires close monitoring
-2.	Los Angles (4,871)
-3.	Atlanta (4,206)
-4.	Houston (3,947)
-5.	San Francisco (3,782)
-San Diego (1,617) and New York (1,023) have the least volatility and more stable revenue.
-Additionally, Higher volatility can be an opportunity linked to promotional events, but also a risk if caused by inconsistent demand.
+•	What This Tells Us: Each location has 116 weeks of data, so it's consistent across.
+•	Average: This is the mean weekly revenue for each location.
+•	Revenue_volatility: This is how much the weekly revenue jumps or dips, on average, around the mean.
+
+1.	Chicago revenue jumps up/down by 61,980 around its mean of 157,304. This is a high volatility score, suggesting unpredictable performance.
+•	meaning: Average weekly revenue = 157,304
+•	Revenue_volatility= +/- 61,980 (up 219,284 and down 95,324).
+
+2.	New York, being the least stable, moves up/down by 12,145 around its mean of 34,109. 
+Although with a smaller revenue, it's relatively stable and showing consistent performance.
+•	meaning: Average weekly revenue = 34,109
+•	Revenue_volatility= +/- 12,145 (up 46,254 and down 21,964).
+
+
+
