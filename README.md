@@ -110,7 +110,7 @@ Although with a smaller revenue, it's relatively stable and showing consistent p
 •	Revenue_volatility= +/- 12,145 (up 46,254 and down 21,964).
 
 
-**CHALLENGE 6: Seasonality Pattern**
+   **CHALLENGE 6: Seasonality Pattern**
 
 **Business Question:**
 Extract the month from the date, calculate the average monthly pieces, and detect which months consistently show peaks or troughs.
@@ -126,5 +126,21 @@ Understanding seasonal patterns helps the business forecast demand changes and a
 2.	While for Birmingham, the YoY (February 2020-2022) trend across all three years experienced mild troughs throughout (-4 in 2020, -6 in 2021, and -10 in 2022), indicating a historically low-demand month for this location in February.
 
 
+   **CHALLENGE 7: Revenue per Order Analysis**
+
+**Business Question:**
+Calculate the average revenue per order by location and show trends over time (daily/monthly averages).
+
+**Reason for its significance:**
+Calculating revenue by order indicates how much value each transaction brings. An upward trend signal that shows that customers are either purchasing more or purchasing higher value products, while on the other hand, an inverse signal for a decline.
+
+**SQL Solution:**
+
+**Fundamental Observations:**
+	**Daily Overview Analysis**
+•	Chicago indicates an upward trend from the 2nd and 4th of January 2020, increasing from 116 to 147 revenue per order, before dipping in trend. 
+
+**Monthly Overview Analysis**
+•	Chicago indicates a decline in its revenue by order between January to March, from 123 to 108. Conversely, an upward trend for Atlanta from 122 to 134, suggesting stronger customer spending growth.
 
 
