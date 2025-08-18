@@ -119,7 +119,7 @@ Extract the month from the date, calculate the average monthly pieces, and detec
 Understanding seasonal patterns helps the business forecast demand changes and align production, inventory according. Additionally, identifying peak and low-demand months ensures better resource allocation.
 
 **SQL Solution:**
-
+[sql_solutions/Challenge_6_Seasonality Pattern.sql]
 
 **Fundamental Observations:**
 1.	Atlanta YoY trends (February 2020-2022): A mild peak was recorded in 2020 at +4% and in 2021 at +3% above the monthly average, indicating an early sign of seasonal consistency. However, the demand shifted in 2022, suggesting that demand weakened compared to prior years.
