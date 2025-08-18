@@ -135,6 +135,7 @@ Calculate the average revenue per order by location and show trends over time (d
 Calculating revenue by order indicates how much value each transaction brings. An upward trend signal that shows that customers are either purchasing more or purchasing higher value products, while on the other hand, an inverse signal for a decline.
 
 **SQL Solution:**
+[sql_solutions/Challenge_7_Revenue per Order Analysis](https://github.com/Mickuye/Supply-Chain/blob/c350cf3436acc4e40edd485eca1873393cdba1e4/sql_solutions/Challenge_7_Revenue%20per%20Order%20Analysis.sql)
 
 **Fundamental Observations:**
 	**Daily Overview Analysis**
