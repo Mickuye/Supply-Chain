@@ -110,4 +110,21 @@ Although with a smaller revenue, it's relatively stable and showing consistent p
 •	Revenue_volatility= +/- 12,145 (up 46,254 and down 21,964).
 
 
+**CHALLENGE 6: Seasonality Pattern**
+
+**Business Question:**
+Extract the month from the date, calculate the average monthly pieces, and detect which months consistently show peaks or troughs.
+
+**Reason for its significance:**
+Understanding seasonal patterns helps the business forecast demand changes and align production, inventory according. Additionally, identifying peak and low-demand months ensures better resource allocation.
+
+**SQL Solution:**
+
+
+**Fundamental Observations:**
+1.	Atlanta YoY trends (February 2020-2022): A mild peak was recorded in 2020 at +4% and in 2021 at +3% above the monthly average, indicating an early sign of seasonal consistency. However, the demand shifted in 2022, suggesting that demand weakened compared to prior years.
+2.	While for Birmingham, the YoY (February 2020-2022) trend across all three years experienced mild troughs throughout (-4 in 2020, -6 in 2021, and -10 in 2022), indicating a historically low-demand month for this location in February.
+
+
+
 
