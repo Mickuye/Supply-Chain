@@ -144,4 +144,17 @@ Calculating revenue by order indicates how much value each transaction brings. A
 **Monthly Overview Analysis**
 •	Chicago indicates a decline in its revenue by order between January to March, from 123 to 108. Conversely, an upward trend for Atlanta from 122 to 134, suggesting stronger customer spending growth.
 
+  **CHALLENGE 8: Outlier Revenue Days**
 
+**Business Question:** 
+Find individual days with revenue beyond two standard deviations above the location's daily average. You are trying to 
+
+**Reason for its significance:** 
+Anomalies and demand spikes are highlighted using Outliers. Identifying these days allows the business to distinguish between genuine sales, like promotions or erroneous data, which helps refine forecasting.  In other words, identifies days when a location generated significantly more revenue than usual, to the extent that it falls well above the normal range.
+
+**SQL Solution:**
+
+
+**Fundamental Observations:**
+The results show revenue for each day by location, location's usual average and volatility, a flagged outlier showing if revenue was statistically much higher than normal.
+•	An overview on the 6th of January,2020, indicates an Outlier flag for Seattle, having the revenue of 35,228, surpassing the outlier threshold of 15,151 (the summation of average and 2 * standard deviations). Which suggest that Seattle experiences a sharp spike as a result of either a high demand than usual, promotions or otherwise.
