@@ -153,7 +153,7 @@ Find individual days with revenue beyond two standard deviations above the locat
 Anomalies and demand spikes are highlighted using Outliers. Identifying these days allows the business to distinguish between genuine sales, like promotions or erroneous data, which helps refine forecasting.  In other words, identifies days when a location generated significantly more revenue than usual, to the extent that it falls well above the normal range.
 
 **SQL Solution:**
-[](https://github.com/Mickuye/Supply-Chain/blob/28ef762e78dbcca08f9aff82c207b3a8c2370d53/sql_solutions/Challenge_8_Outlier%20Revenue%20Days.sql)
+[sql_solutions/Challenge_8_Outlier Revenue Days.sql](https://github.com/Mickuye/Supply-Chain/blob/28ef762e78dbcca08f9aff82c207b3a8c2370d53/sql_solutions/Challenge_8_Outlier%20Revenue%20Days.sql)
 
 **Fundamental Observations:**
 The results show revenue for each day by location, location's usual average and volatility, a flagged outlier showing if revenue was statistically much higher than normal.
